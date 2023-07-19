@@ -1,5 +1,31 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
+    "(app-client)/./components/Herosection.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Herosection.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Herosection.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Herosection.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/layout.tsx": {
       "": {
         "id": "(sc_client)/./app/layout.tsx",
@@ -136,6 +162,32 @@ self.__RSC_MANIFEST={
     "/home/taye/dev/next/taylormade-portfolio/app/layout": [
       "static/css/app/layout.css"
     ]
+  },
+  "/home/taye/dev/next/taylormade-portfolio/components/Herosection.tsx": {
+    "": {
+      "id": "(app-client)/./components/Herosection.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Herosection.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Herosection.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
   },
   "/home/taye/dev/next/taylormade-portfolio/styles/globals.css": {
     "default": {

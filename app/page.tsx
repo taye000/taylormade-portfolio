@@ -1,7 +1,8 @@
+import Herosection from "@/components/Herosection";
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-2xl">Taylormade</h1>
+    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
+      <Herosection/>
     </main>
   );
 }
