@@ -1,5 +1,31 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
+    "(app-client)/./components/Navbar.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
@@ -110,6 +136,32 @@ self.__RSC_MANIFEST={
     "/home/taye/dev/next/taylormade-portfolio/app/layout": [
       "static/css/_app-client_styles_globals_css.css"
     ]
+  },
+  "/home/taye/dev/next/taylormade-portfolio/components/Navbar.tsx": {
+    "": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
   },
   "/home/taye/dev/next/taylormade-portfolio/node_modules/next/dist/client/components/app-router.js": {
     "": {
