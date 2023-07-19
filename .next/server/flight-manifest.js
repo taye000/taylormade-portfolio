@@ -26,6 +26,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/layout.tsx": {
       "": {
         "id": "(sc_client)/./app/layout.tsx",
@@ -182,6 +208,58 @@ self.__RSC_MANIFEST={
     },
     "default": {
       "id": "(app-client)/./components/Herosection.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/taye/dev/next/taylormade-portfolio/node_modules/next/dist/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/taye/dev/next/taylormade-portfolio/node_modules/next/dist/esm/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
         "app/page:app/page"
