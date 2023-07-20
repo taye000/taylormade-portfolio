@@ -58,7 +58,7 @@ const Aboutsection = () => {
             </div>
             <Image
               className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-              src={"/headshot.jpg"}
+              src={"/hero-image.png"}
               width={300}
               height={300}
               alt={"Skills"}

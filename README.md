@@ -1,12 +1,6 @@
-# Tailwind CSS and Next.js Portfolio
+## My Portfolio Website
 
-This is a template for creating a portfolio with Tailwind CSS and Next.js.
-
-![Portfolio Demo](demo/demo.gif)
-
-## How it works
-
-Fork or download the repo and change whatever you need to change for your needs.
+This is a portfolio website with Next.js and Tailwind CSS.
 
 ## Running Locally
 
