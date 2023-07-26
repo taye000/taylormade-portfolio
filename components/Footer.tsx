@@ -3,6 +3,8 @@ import {
   AiOutlineGithub,
   AiOutlineTwitter,
   AiOutlineLinkedin,
+  AiOutlineFacebook,
+  AiOutlineInstagram,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -41,6 +43,26 @@ const Footer = () => {
               size={30}
             />
           </a>
+          <a
+              href="https://instagram.com/taylor.gitari?igshid=OGQ5ZDc2ODk2ZA=="
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiOutlineInstagram
+                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                size={30}
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/taylor.abbruzzi/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <AiOutlineFacebook
+                className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+                size={30}
+              />
+            </a>
         </div>
       </div>
     </footer>
