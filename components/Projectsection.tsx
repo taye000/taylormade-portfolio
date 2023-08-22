@@ -6,6 +6,28 @@ import SlideUp from "./SlideUp";
 
 const projects = [
   {
+    name: "pushpay",
+    description:
+      "pushpay backend using solidy, Node with typescript and hardhat",
+    image: "/pushpay.png",
+    github: "https://github.com/taye000/pushpay-backend",
+    link: "https://pushpay-zeta.vercel.app/",
+  },
+  {
+    name: "Imani Escrow Service",
+    description: "An Escrow service built with Nextjs and Node with typescript",
+    image: "/imani.png",
+    github: "https://github.com/taye000/nextapp",
+    link: "",
+  },
+  {
+    name: "Task Manager",
+    description: "Task-manager backend api built with Golang",
+    image: "/taskmanager.png",
+    github: "https://github.com/taye000/task-manager-backend-Golang",
+    link: "",
+  },
+  {
     name: "Arbitrage-Bot-on-BSC",
     description:
       "An Arbitrage-Bot-on-BSC built on Binance Smart Chain using Solidity",
@@ -21,28 +43,6 @@ const projects = [
     github: "https://github.com/taye000/asset-catalog-lookup",
     link: "",
   },
-  {
-    name: "pushpay",
-    description:
-      "pushpay backend using solidy, Node with typescript and hardhat",
-    image: "/pushpay.png",
-    github: "https://github.com/taye000/pushpay-backend",
-    link: "https://pushpay-zeta.vercel.app/",
-  },
-  {
-    name: "Task Manager",
-    description: "Task-manager backend api built with Golang",
-    image: "/taskmanager.png",
-    github: "https://github.com/taye000/task-manager-backend-Golang",
-    link: "",
-  },
-  {
-    name: "Imani Escrow Service",
-    description: "An Escrow service built with Nextjs and Node with typescript",
-    image: "/imani.png",
-    github: "https://github.com/taye000/nextapp",
-    link: "",
-  }
 ];
 const Projectsection = () => {
   return (
