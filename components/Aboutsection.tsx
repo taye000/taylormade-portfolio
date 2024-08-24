@@ -10,6 +10,11 @@ const skills = [
   { skills: "Python" },
   { skills: "Next" },
   { skills: "React" },
+  { skills: "Docker" },
+  { skills: "GraphQL" },
+  { skills: "MongoDB" },
+  { skills: "Prisma" },
+  { skills: "PostgresQL" },
   { skills: "Git" },
 ];
 const Aboutsection = () => {
@@ -18,26 +23,27 @@ const Aboutsection = () => {
       <div className="my-12 pb-12 md:pt-12 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           All I can share about myself out here..
-          <hr className="w6 h-1 mx-auto my-4 bg-blue-500 border-0 rounded"/>
+          <hr className="w6 h-1 mx-auto my-4 bg-blue-500 border-0 rounded" />
         </h1>
-        <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:spce-x-10">
+        <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:spce-x-10 mr-1">
           <div className="md:w-1/2">
             <h1 className="text-center font-bold text-2xl mb-6 md:text-left">
-              Getting to know me!
+              A Glimpse into My Journey
             </h1>
             <p>
-              I am passionate in programming and striving to make a difference.
+              I am a dedicated software engineer with over 4 years of hands-on experience in building robust, scalable, and efficient applications. My passion for technology drives me to continually innovate and contribute to impactful projects.
             </p>
             <br />
             <p>
-              I graduated from Kenya Methodist University with a Degree in
-              Business Information Technology. I have since engaged in software
-              engineering as a profession.
+              I graduated from Kenya Methodist University with a degree in Business Information Technology. Since then, I have immersed myself in the world of software engineering, honing my skills in Node.js, Next.js, MongoDB, Docker, Git, and TypeScript.
             </p>
             <br />
             <p>
-              I am always looking for opportunities to learn and grow, as
-              software engineering demands constant learning and growth.
+              Throughout my career, I've had the privilege to work on diverse projects, ranging from full-stack web development to cloud-based solutions. I am committed to delivering high-quality code, ensuring seamless user experiences, and staying ahead of industry trends.
+            </p>
+            <br />
+            <p>
+              I believe in continuous learning and adaptability, as the tech industry demands it. I am always eager to embrace new challenges, collaborate with like-minded professionals, and contribute to projects that make a difference.
             </p>
           </div>
           <div className="md:w-1/2">

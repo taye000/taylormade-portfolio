@@ -27,7 +27,7 @@ const Navbar = () => {
         <div>
           <div className="flex items-center justify-between py-3">
             <Link to="home">
-              <div className="md:py-5 md:block">
+              <div className="md:py-5 md:block cursor-pointer">
                 <h2 className="text-2xl font-bold">Taylor Gitari</h2>
               </div>
             </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
                     key={index}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
                     }
                     activeClass="active"
                     spy={true}
