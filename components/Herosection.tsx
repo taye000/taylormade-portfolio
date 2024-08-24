@@ -18,11 +18,13 @@ const Herosection = () => {
           />
         </div>
         <div className="md:w-1/2 md:mt-2">
-          <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">Hi, I am Taylor.</h1>
+          <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">
+            Hi, I'm Taylor.
+          </h1>
           <p className="text-lg mt-4 mb-6">
-            I am a Software Engineer based in Nairobi, Kenya. I create software
-            solutions to empower small businesses.
+            I'm a Software Engineer based in Nairobi, Kenya, dedicated to crafting innovative software solutions that empower small businesses to thrive in the digital age.
           </p>
+
           <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-blue-500 rounded shadow hover:bg-blue-800 cursor-pointer"
